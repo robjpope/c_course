@@ -2,10 +2,10 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
+      "label": "build my C",
       "type": "shell",
       "command": "gcc",
-      "args": ["-g", "-o", "program", "test.c"],
+      "args": ["-g", "-o", "myexe", "test.c"],
       "group": {
         "kind": "build",
         "isDefault": true
